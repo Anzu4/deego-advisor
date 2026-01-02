@@ -1,0 +1,512 @@
+{
+  "specs": {
+    "deathknight_blood": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Vers",
+        "Mastery"
+      ],
+      "class": "DEATHKNIGHT",
+      "fetched_at": 1767323047,
+      "id": "deathknight_blood",
+      "spec": "Blood Death Knight",
+      "url": "https://www.archon.gg/wow/builds/blood/death-knight/raid/overview/mythic/all-bosses"
+    },
+    "deathknight_frost": {
+      "bestStats": [
+        "Mastery",
+        "Crit",
+        "Haste",
+        "Vers"
+      ],
+      "class": "DEATHKNIGHT",
+      "fetched_at": 1767323047,
+      "id": "deathknight_frost",
+      "spec": "Frost Death Knight",
+      "url": "https://www.archon.gg/wow/builds/frost/death-knight/raid/overview/mythic/all-bosses"
+    },
+    "deathknight_unholy": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Crit",
+        "Vers"
+      ],
+      "class": "DEATHKNIGHT",
+      "fetched_at": 1767323048,
+      "id": "deathknight_unholy",
+      "spec": "Unholy Death Knight",
+      "url": "https://www.archon.gg/wow/builds/unholy/death-knight/raid/overview/mythic/all-bosses"
+    },
+    "demonhunter_havoc": {
+      "bestStats": [
+        "Crit",
+        "Mastery",
+        "Haste",
+        "Vers"
+      ],
+      "class": "DEMONHUNTER",
+      "fetched_at": 1767323048,
+      "id": "demonhunter_havoc",
+      "spec": "Havoc Demon Hunter",
+      "url": "https://www.archon.gg/wow/builds/havoc/demon-hunter/raid/overview/mythic/all-bosses"
+    },
+    "demonhunter_vengeance": {
+      "bestStats": [
+        "Crit",
+        "Haste",
+        "Vers",
+        "Mastery"
+      ],
+      "class": "DEMONHUNTER",
+      "fetched_at": 1767323048,
+      "id": "demonhunter_vengeance",
+      "spec": "Vengeance Demon Hunter",
+      "url": "https://www.archon.gg/wow/builds/vengeance/demon-hunter/raid/overview/mythic/all-bosses"
+    },
+    "druid_balance": {
+      "bestStats": [
+        "Mastery",
+        "Crit",
+        "Vers",
+        "Haste"
+      ],
+      "class": "DRUID",
+      "fetched_at": 1767323048,
+      "id": "druid_balance",
+      "spec": "Balance Druid",
+      "url": "https://www.archon.gg/wow/builds/balance/druid/raid/overview/mythic/all-bosses"
+    },
+    "druid_feral": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Crit",
+        "Vers"
+      ],
+      "class": "DRUID",
+      "fetched_at": 1767323049,
+      "id": "druid_feral",
+      "spec": "Feral Druid",
+      "url": "https://www.archon.gg/wow/builds/feral/druid/raid/overview/mythic/all-bosses"
+    },
+    "druid_guardian": {
+      "bestStats": [
+        "Haste",
+        "Vers",
+        "Mastery",
+        "Crit"
+      ],
+      "class": "DRUID",
+      "fetched_at": 1767323049,
+      "id": "druid_guardian",
+      "spec": "Guardian Druid",
+      "url": "https://www.archon.gg/wow/builds/guardian/druid/raid/overview/mythic/all-bosses"
+    },
+    "druid_restoration": {
+      "bestStats": [
+        "Haste",
+        "Mastery",
+        "Vers",
+        "Crit"
+      ],
+      "class": "DRUID",
+      "fetched_at": 1767323049,
+      "id": "druid_restoration",
+      "spec": "Restoration Druid",
+      "url": "https://www.archon.gg/wow/builds/restoration/druid/raid/overview/mythic/all-bosses"
+    },
+    "evoker_augmentation": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Mastery",
+        "Vers"
+      ],
+      "class": "EVOKER",
+      "fetched_at": 1767323049,
+      "id": "evoker_augmentation",
+      "spec": "Augmentation Evoker",
+      "url": "https://www.archon.gg/wow/builds/augmentation/evoker/raid/overview/mythic/all-bosses"
+    },
+    "evoker_devastation": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Mastery",
+        "Vers"
+      ],
+      "class": "EVOKER",
+      "fetched_at": 1767323049,
+      "id": "evoker_devastation",
+      "spec": "Devastation Evoker",
+      "url": "https://www.archon.gg/wow/builds/devastation/evoker/raid/overview/mythic/all-bosses"
+    },
+    "evoker_preservation": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Crit",
+        "Vers"
+      ],
+      "class": "EVOKER",
+      "fetched_at": 1767323050,
+      "id": "evoker_preservation",
+      "spec": "Preservation Evoker",
+      "url": "https://www.archon.gg/wow/builds/preservation/evoker/raid/overview/mythic/all-bosses"
+    },
+    "hunter_beastmastery": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Vers",
+        "Mastery"
+      ],
+      "class": "HUNTER",
+      "fetched_at": 1767323050,
+      "id": "hunter_beastmastery",
+      "spec": "Beast Mastery Hunter",
+      "url": "https://www.archon.gg/wow/builds/beast-mastery/hunter/raid/overview/mythic/all-bosses"
+    },
+    "hunter_marksmanship": {
+      "bestStats": [
+        "Crit",
+        "Mastery",
+        "Haste",
+        "Vers"
+      ],
+      "class": "HUNTER",
+      "fetched_at": 1767323050,
+      "id": "hunter_marksmanship",
+      "spec": "Marksmanship Hunter",
+      "url": "https://www.archon.gg/wow/builds/marksmanship/hunter/raid/overview/mythic/all-bosses"
+    },
+    "hunter_survival": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Crit",
+        "Vers"
+      ],
+      "class": "HUNTER",
+      "fetched_at": 1767323050,
+      "id": "hunter_survival",
+      "spec": "Survival Hunter",
+      "url": "https://www.archon.gg/wow/builds/survival/hunter/raid/overview/mythic/all-bosses"
+    },
+    "mage_arcane": {
+      "bestStats": [
+        "Haste",
+        "Vers",
+        "Mastery",
+        "Crit"
+      ],
+      "class": "MAGE",
+      "fetched_at": 1767323050,
+      "id": "mage_arcane",
+      "spec": "Arcane Mage",
+      "url": "https://www.archon.gg/wow/builds/arcane/mage/raid/overview/mythic/all-bosses"
+    },
+    "mage_fire": {
+      "bestStats": [
+        "Haste",
+        "Mastery",
+        "Vers",
+        "Crit"
+      ],
+      "class": "MAGE",
+      "fetched_at": 1767323051,
+      "id": "mage_fire",
+      "spec": "Fire Mage",
+      "url": "https://www.archon.gg/wow/builds/fire/mage/raid/overview/mythic/all-bosses"
+    },
+    "mage_frost": {
+      "bestStats": [
+        "Haste",
+        "Vers",
+        "Crit",
+        "Mastery"
+      ],
+      "class": "MAGE",
+      "fetched_at": 1767323051,
+      "id": "mage_frost",
+      "spec": "Frost Mage",
+      "url": "https://www.archon.gg/wow/builds/frost/mage/raid/overview/mythic/all-bosses"
+    },
+    "monk_brewmaster": {
+      "bestStats": [
+        "Crit",
+        "Vers",
+        "Mastery",
+        "Haste"
+      ],
+      "class": "MONK",
+      "fetched_at": 1767323051,
+      "id": "monk_brewmaster",
+      "spec": "Brewmaster Monk",
+      "url": "https://www.archon.gg/wow/builds/brewmaster/monk/raid/overview/mythic/all-bosses"
+    },
+    "monk_mistweaver": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Vers",
+        "Mastery"
+      ],
+      "class": "MONK",
+      "fetched_at": 1767323051,
+      "id": "monk_mistweaver",
+      "spec": "Mistweaver Monk",
+      "url": "https://www.archon.gg/wow/builds/mistweaver/monk/raid/overview/mythic/all-bosses"
+    },
+    "monk_windwalker": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Vers",
+        "Crit"
+      ],
+      "class": "MONK",
+      "fetched_at": 1767323051,
+      "id": "monk_windwalker",
+      "spec": "Windwalker Monk",
+      "url": "https://www.archon.gg/wow/builds/windwalker/monk/raid/overview/mythic/all-bosses"
+    },
+    "paladin_holy": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Crit",
+        "Vers"
+      ],
+      "class": "PALADIN",
+      "fetched_at": 1767323052,
+      "id": "paladin_holy",
+      "spec": "Holy Paladin",
+      "url": "https://www.archon.gg/wow/builds/holy/paladin/raid/overview/mythic/all-bosses"
+    },
+    "paladin_protection": {
+      "bestStats": [
+        "Crit",
+        "Haste",
+        "Mastery",
+        "Vers"
+      ],
+      "class": "PALADIN",
+      "fetched_at": 1767323052,
+      "id": "paladin_protection",
+      "spec": "Protection Paladin",
+      "url": "https://www.archon.gg/wow/builds/protection/paladin/raid/overview/mythic/all-bosses"
+    },
+    "paladin_retribution": {
+      "bestStats": [
+        "Crit",
+        "Mastery",
+        "Haste",
+        "Vers"
+      ],
+      "class": "PALADIN",
+      "fetched_at": 1767323052,
+      "id": "paladin_retribution",
+      "spec": "Retribution Paladin",
+      "url": "https://www.archon.gg/wow/builds/retribution/paladin/raid/overview/mythic/all-bosses"
+    },
+    "priest_discipline": {
+      "bestStats": [
+        "Haste",
+        "Mastery",
+        "Crit",
+        "Vers"
+      ],
+      "class": "PRIEST",
+      "fetched_at": 1767323052,
+      "id": "priest_discipline",
+      "spec": "Discipline Priest",
+      "url": "https://www.archon.gg/wow/builds/discipline/priest/raid/overview/mythic/all-bosses"
+    },
+    "priest_holy": {
+      "bestStats": [
+        "Crit",
+        "Mastery",
+        "Haste",
+        "Vers"
+      ],
+      "class": "PRIEST",
+      "fetched_at": 1767323052,
+      "id": "priest_holy",
+      "spec": "Holy Priest",
+      "url": "https://www.archon.gg/wow/builds/holy/priest/raid/overview/mythic/all-bosses"
+    },
+    "priest_shadow": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Crit",
+        "Vers"
+      ],
+      "class": "PRIEST",
+      "fetched_at": 1767323053,
+      "id": "priest_shadow",
+      "spec": "Shadow Priest",
+      "url": "https://www.archon.gg/wow/builds/shadow/priest/raid/overview/mythic/all-bosses"
+    },
+    "rogue_assassination": {
+      "bestStats": [
+        "Mastery",
+        "Crit",
+        "Vers",
+        "Haste"
+      ],
+      "class": "ROGUE",
+      "fetched_at": 1767323053,
+      "id": "rogue_assassination",
+      "spec": "Assassination Rogue",
+      "url": "https://www.archon.gg/wow/builds/assassination/rogue/raid/overview/mythic/all-bosses"
+    },
+    "rogue_outlaw": {
+      "bestStats": [
+        "Vers",
+        "Haste",
+        "Crit",
+        "Mastery"
+      ],
+      "class": "ROGUE",
+      "fetched_at": 1767323053,
+      "id": "rogue_outlaw",
+      "spec": "Outlaw Rogue",
+      "url": "https://www.archon.gg/wow/builds/outlaw/rogue/raid/overview/mythic/all-bosses"
+    },
+    "rogue_subtlety": {
+      "bestStats": [
+        "Mastery",
+        "Vers",
+        "Crit",
+        "Haste"
+      ],
+      "class": "ROGUE",
+      "fetched_at": 1767323053,
+      "id": "rogue_subtlety",
+      "spec": "Subtlety Rogue",
+      "url": "https://www.archon.gg/wow/builds/subtlety/rogue/raid/overview/mythic/all-bosses"
+    },
+    "shaman_elemental": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Vers",
+        "Crit"
+      ],
+      "class": "SHAMAN",
+      "fetched_at": 1767323053,
+      "id": "shaman_elemental",
+      "spec": "Elemental Shaman",
+      "url": "https://www.archon.gg/wow/builds/elemental/shaman/raid/overview/mythic/all-bosses"
+    },
+    "shaman_enhancement": {
+      "bestStats": [
+        "Haste",
+        "Mastery",
+        "Crit",
+        "Vers"
+      ],
+      "class": "SHAMAN",
+      "fetched_at": 1767323054,
+      "id": "shaman_enhancement",
+      "spec": "Enhancement Shaman",
+      "url": "https://www.archon.gg/wow/builds/enhancement/shaman/raid/overview/mythic/all-bosses"
+    },
+    "shaman_restoration": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Vers",
+        "Mastery"
+      ],
+      "class": "SHAMAN",
+      "fetched_at": 1767323054,
+      "id": "shaman_restoration",
+      "spec": "Restoration Shaman",
+      "url": "https://www.archon.gg/wow/builds/restoration/shaman/raid/overview/mythic/all-bosses"
+    },
+    "warlock_affliction": {
+      "bestStats": [
+        "Crit",
+        "Mastery",
+        "Haste",
+        "Vers"
+      ],
+      "class": "WARLOCK",
+      "fetched_at": 1767323054,
+      "id": "warlock_affliction",
+      "spec": "Affliction Warlock",
+      "url": "https://www.archon.gg/wow/builds/affliction/warlock/raid/overview/mythic/all-bosses"
+    },
+    "warlock_demonology": {
+      "bestStats": [
+        "Crit",
+        "Haste",
+        "Mastery",
+        "Vers"
+      ],
+      "class": "WARLOCK",
+      "fetched_at": 1767323054,
+      "id": "warlock_demonology",
+      "spec": "Demonology Warlock",
+      "url": "https://www.archon.gg/wow/builds/demonology/warlock/raid/overview/mythic/all-bosses"
+    },
+    "warlock_destruction": {
+      "bestStats": [
+        "Crit",
+        "Mastery",
+        "Haste",
+        "Vers"
+      ],
+      "class": "WARLOCK",
+      "fetched_at": 1767323054,
+      "id": "warlock_destruction",
+      "spec": "Destruction Warlock",
+      "url": "https://www.archon.gg/wow/builds/destruction/warlock/raid/overview/mythic/all-bosses"
+    },
+    "warrior_arms": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Mastery",
+        "Vers"
+      ],
+      "class": "WARRIOR",
+      "fetched_at": 1767323055,
+      "id": "warrior_arms",
+      "spec": "Arms Warrior",
+      "url": "https://www.archon.gg/wow/builds/arms/warrior/raid/overview/mythic/all-bosses"
+    },
+    "warrior_fury": {
+      "bestStats": [
+        "Mastery",
+        "Haste",
+        "Vers",
+        "Crit"
+      ],
+      "class": "WARRIOR",
+      "fetched_at": 1767323055,
+      "id": "warrior_fury",
+      "spec": "Fury Warrior",
+      "url": "https://www.archon.gg/wow/builds/fury/warrior/raid/overview/mythic/all-bosses"
+    },
+    "warrior_protection": {
+      "bestStats": [
+        "Haste",
+        "Crit",
+        "Vers",
+        "Mastery"
+      ],
+      "class": "WARRIOR",
+      "fetched_at": 1767323055,
+      "id": "warrior_protection",
+      "spec": "Protection Warrior",
+      "url": "https://www.archon.gg/wow/builds/protection/warrior/raid/overview/mythic/all-bosses"
+    }
+  },
+  "version": 1
+}

@@ -1,0 +1,14 @@
+## Interface: 110000
+## Title: Deego Advisor
+## Notes: Spec stats, loot sources, and instance tips.
+## Author: Deego
+## Version: 0.1.0
+## SavedVariables: DeegoDB
+
+data_bis.lua
+data_stats.lua
+data.lua
+ui.lua
+core.lua
+Bindings.xml
+Bindings.lua

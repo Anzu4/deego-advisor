@@ -1,0 +1,55 @@
+{
+  "specs": [
+    {"id": "deathknight_blood", "class": "DEATHKNIGHT", "spec": "Blood Death Knight", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear#bis-items-sanlayn"},
+    {"id": "deathknight_frost", "class": "DEATHKNIGHT", "spec": "Frost Death Knight", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/bis-gear#bis-items-overall"},
+    {"id": "deathknight_unholy", "class": "DEATHKNIGHT", "spec": "Unholy Death Knight", "url": "https://www.wowhead.com/guide/classes/death-knight/unholy/bis-gear#bis-items-overall"},
+
+    {"id": "demonhunter_havoc", "class": "DEMONHUNTER", "spec": "Havoc Demon Hunter", "url": "https://www.wowhead.com/guide/classes/demon-hunter/havoc/bis-gear#bis-items-overall"},
+    {"id": "demonhunter_vengeance", "class": "DEMONHUNTER", "spec": "Vengeance Demon Hunter", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear#bis-items-overall"},
+
+    {"id": "druid_balance", "class": "DRUID", "spec": "Balance Druid", "url": "https://www.wowhead.com/guide/classes/druid/balance/bis-gear#bis-items-overall"},
+    {"id": "druid_feral", "class": "DRUID", "spec": "Feral Druid", "url": "https://www.wowhead.com/guide/classes/druid/feral/bis-gear#bis-items-overall"},
+    {"id": "druid_guardian", "class": "DRUID", "spec": "Guardian Druid", "url": "https://www.wowhead.com/guide/classes/druid/guardian/bis-gear#bis-items-overall"},
+    {"id": "druid_restoration", "class": "DRUID", "spec": "Restoration Druid", "url": "https://www.wowhead.com/guide/classes/druid/restoration/bis-gear#bis-items-overall"},
+
+    {"id": "evoker_augmentation", "class": "EVOKER", "spec": "Augmentation Evoker", "url": "https://www.wowhead.com/guide/classes/evoker/augmentation/bis-gear#bis-items-overall"},
+    {"id": "evoker_devastation", "class": "EVOKER", "spec": "Devastation Evoker", "url": "https://www.wowhead.com/guide/classes/evoker/devastation/bis-gear#bis-items-overall"},
+    {"id": "evoker_preservation", "class": "EVOKER", "spec": "Preservation Evoker", "url": "https://www.wowhead.com/guide/classes/evoker/preservation/bis-gear#bis-items-overall"},
+
+    {"id": "hunter_beastmastery", "class": "HUNTER", "spec": "Beast Mastery Hunter", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear#bis-items-overall"},
+    {"id": "hunter_marksmanship", "class": "HUNTER", "spec": "Marksmanship Hunter", "url": "https://www.wowhead.com/guide/classes/hunter/marksmanship/bis-gear#bis-items-overall"},
+    {"id": "hunter_survival", "class": "HUNTER", "spec": "Survival Hunter", "url": "https://www.wowhead.com/guide/classes/hunter/survival/bis-gear#bis-items-overall"},
+
+    {"id": "mage_arcane", "class": "MAGE", "spec": "Arcane Mage", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear#bis-items-overall"},
+    {"id": "mage_fire", "class": "MAGE", "spec": "Fire Mage", "url": "https://www.wowhead.com/guide/classes/mage/fire/bis-gear#bis-items-overall"},
+    {"id": "mage_frost", "class": "MAGE", "spec": "Frost Mage", "url": "https://www.wowhead.com/guide/classes/mage/frost/bis-gear#bis-items-overall"},
+
+    {"id": "monk_brewmaster", "class": "MONK", "spec": "Brewmaster Monk", "url": "https://www.wowhead.com/guide/classes/monk/brewmaster/bis-gear#bis-items-overall"},
+    {"id": "monk_mistweaver", "class": "MONK", "spec": "Mistweaver Monk", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear#bis-items-overall"},
+    {"id": "monk_windwalker", "class": "MONK", "spec": "Windwalker Monk", "url": "https://www.wowhead.com/guide/classes/monk/windwalker/bis-gear#bis-items-overall"},
+
+    {"id": "paladin_holy", "class": "PALADIN", "spec": "Holy Paladin", "url": "https://www.wowhead.com/guide/classes/paladin/holy/bis-gear#bis-items-overall"},
+    {"id": "paladin_protection", "class": "PALADIN", "spec": "Protection Paladin", "url": "https://www.wowhead.com/guide/classes/paladin/protection/bis-gear#bis-items-overall"},
+    {"id": "paladin_retribution", "class": "PALADIN", "spec": "Retribution Paladin", "url": "https://www.wowhead.com/guide/classes/paladin/retribution/bis-gear#bis-items-overall"},
+
+    {"id": "priest_discipline", "class": "PRIEST", "spec": "Discipline Priest", "url": "https://www.wowhead.com/guide/classes/priest/discipline/bis-gear#bis-items-overall"},
+    {"id": "priest_holy", "class": "PRIEST", "spec": "Holy Priest", "url": "https://www.wowhead.com/guide/classes/priest/holy/bis-gear#bis-items-overall"},
+    {"id": "priest_shadow", "class": "PRIEST", "spec": "Shadow Priest", "url": "https://www.wowhead.com/guide/classes/priest/shadow/bis-gear#bis-items-overall"},
+
+    {"id": "rogue_assassination", "class": "ROGUE", "spec": "Assassination Rogue", "url": "https://www.wowhead.com/guide/classes/rogue/assassination/bis-gear#bis-gear-overall-bis-gear"},
+    {"id": "rogue_outlaw", "class": "ROGUE", "spec": "Outlaw Rogue", "url": "https://www.wowhead.com/guide/classes/rogue/outlaw/bis-gear#bis-items-overall"},
+    {"id": "rogue_subtlety", "class": "ROGUE", "spec": "Subtlety Rogue", "url": "https://www.wowhead.com/guide/classes/rogue/subtlety/bis-gear#bis-items-overall"},
+
+    {"id": "shaman_elemental", "class": "SHAMAN", "spec": "Elemental Shaman", "url": "https://www.wowhead.com/guide/classes/shaman/elemental/bis-gear#bis-items-overall"},
+    {"id": "shaman_enhancement", "class": "SHAMAN", "spec": "Enhancement Shaman", "url": "https://www.wowhead.com/guide/classes/shaman/enhancement/bis-gear#bis-items-overall"},
+    {"id": "shaman_restoration", "class": "SHAMAN", "spec": "Restoration Shaman", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear#bis-items-overall"},
+
+    {"id": "warlock_affliction", "class": "WARLOCK", "spec": "Affliction Warlock", "url": "https://www.wowhead.com/guide/classes/warlock/affliction/bis-gear#bis-items-overall"},
+    {"id": "warlock_demonology", "class": "WARLOCK", "spec": "Demonology Warlock", "url": "https://www.wowhead.com/guide/classes/warlock/demonology/bis-gear#bis-items-overall"},
+    {"id": "warlock_destruction", "class": "WARLOCK", "spec": "Destruction Warlock", "url": "https://www.wowhead.com/guide/classes/warlock/destruction/bis-gear#bis-items-overall"},
+
+    {"id": "warrior_arms", "class": "WARRIOR", "spec": "Arms Warrior", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear#bis-items-overall"},
+    {"id": "warrior_fury", "class": "WARRIOR", "spec": "Fury Warrior", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear#bis-items-overall"},
+    {"id": "warrior_protection", "class": "WARRIOR", "spec": "Protection Warrior", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear#bis-items-overall"}
+  ]
+}

@@ -1,0 +1,2 @@
+BINDING_HEADER_DEEGO = "Deego Advisor"
+BINDING_NAME_DEEGO_TOGGLE = "Toggle Window"
