@@ -9,4 +9,4 @@
 If the folder path is correct, you should see `DeegoAdvisor.toc` inside the `DeegoAdvisor` folder.
 
 ## Usage
-- Open the UI with `/deego`.
+- Open the UI with `/deego` or `Alt + d`.
