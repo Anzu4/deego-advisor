@@ -1,6 +1,7 @@
 *.pyc
 __pycache__/
 .DS_Store
+.TODO.md
 
 # Generated cache
 cache/bis_cache.json
