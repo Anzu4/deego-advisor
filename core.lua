@@ -15,15 +15,8 @@ frame:SetScript("OnEvent", function(_, event, name)
     if not DeegoDB then
       DeegoDB = {}
     end
-    if not DeegoDB.overlay then
-      DeegoDB.overlay = {
-        point = "TOPLEFT",
-        x = 18,
-        y = -120,
-      }
-    end
-    DeegoUI.RenderOverlay()
+    -- Overlay removed.
   elseif event == "PLAYER_LOGIN" then
-    DeegoUI.RenderOverlay()
+    -- Overlay removed.
   end
 end)

@@ -497,6 +497,7 @@ function DeegoUI.UpdateSpecBar()
   end
 
   local classTag = DeegoUI.selectedClass or getPlayerClassSpec()
+  local playerClass, playerSpecName = getPlayerClassSpec()
   local specs = {}
   for _, spec in ipairs(DeegoData.specs) do
     if spec.class == classTag then
@@ -513,6 +514,10 @@ function DeegoUI.UpdateSpecBar()
   local itemWidth = barWidth / count
   local startX = 0
   local iconSize = 36
+  local activeSpecName = DeegoUI.selectedSpecName
+  if not activeSpecName and frame.tabs and frame.tabs.selected == "Overall" and classTag == playerClass then
+    activeSpecName = playerSpecName
+  end
 
   for index, spec in ipairs(specs) do
     local item = CreateFrame("Frame", nil, frame.specBar)
@@ -571,7 +576,8 @@ function DeegoUI.UpdateSpecBar()
     statText:SetText(statPriorityLine(spec))
     item.statText = statText
 
-    if DeegoUI.selectedSpecName and DeegoUI.selectedSpecName ~= spec.name then
+    local isSelected = not activeSpecName or matchesSpecName(spec, activeSpecName)
+    if activeSpecName and not matchesSpecName(spec, activeSpecName) then
       item:SetAlpha(0.6)
       item.bg:Hide()
       item.border:Hide()
@@ -584,6 +590,21 @@ function DeegoUI.UpdateSpecBar()
         item.border:SetBackdropBorderColor(classColor.r, classColor.g, classColor.b, 1)
         item.border:Show()
       end
+    end
+    if isSelected then
+      if not item.highlight then
+        item.highlight = CreateFrame("Frame", nil, item, "BackdropTemplate")
+        item.highlight:SetAllPoints()
+        item.highlight:SetBackdrop({
+          edgeFile = "Interface\\Buttons\\WHITE8X8",
+          edgeSize = 2,
+        })
+        item.highlight:SetFrameLevel(item:GetFrameLevel() + 2)
+      end
+      item.highlight:SetBackdropBorderColor(0.9, 0.5, 1, 1)
+      item.highlight:Show()
+    elseif item.highlight then
+      item.highlight:Hide()
     end
 
     table.insert(frame.specBar.items, item)
@@ -696,7 +717,7 @@ function DeegoUI.UpdateTabContent()
   end
 
   local classTag = DeegoUI.selectedClass or getPlayerClassSpec()
-  local playerClass = select(2, UnitClass("player"))
+  local playerClass, playerSpecName = getPlayerClassSpec()
   if DeegoUI.selectedClass and DeegoUI.selectedClass ~= playerClass and not DeegoUI.selectedSpecName
     and frame.tabs.selected ~= "Mythic +" and frame.tabs.selected ~= "Raid"
     and frame.tabs.selected ~= "Trinkets" then
@@ -712,7 +733,11 @@ function DeegoUI.UpdateTabContent()
   if frame.gearBackground then
     frame.gearBackground:Hide()
   end
-  local spec = getBisSpecForClass(classTag, DeegoUI.selectedSpecName)
+  local specFilterName = DeegoUI.selectedSpecName
+  if selectedTab == "Overall" and not specFilterName and classTag == playerClass then
+    specFilterName = playerSpecName
+  end
+  local spec = getBisSpecForClass(classTag, specFilterName)
   if not spec then
     local text = frame.tabBody:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
     text:SetPoint("TOPLEFT", 0, 0)
@@ -1779,6 +1804,8 @@ function DeegoUI.UpdateTabContent()
     noteOffset = 18
   end
 
+  -- Spec selection is highlighted on the spec buttons.
+
   local function entriesForLabel(label)
     local dataSlot = label
     if label == "Back" then
@@ -1993,60 +2020,5 @@ do
 end
 
 function DeegoUI.RenderOverlay()
-  if not DeegoUI.overlay then
-    local overlay = CreateFrame("Frame", "DeegoAdvisorOverlay", UIParent)
-    overlay:SetSize(320, 120)
-    overlay:SetMovable(true)
-    overlay:EnableMouse(true)
-    overlay:RegisterForDrag("LeftButton")
-    overlay:SetScript("OnDragStart", function(self)
-      if IsShiftKeyDown() then
-        self:StartMoving()
-      end
-    end)
-    overlay:SetScript("OnDragStop", function(self)
-      self:StopMovingOrSizing()
-      local point, _, _, x, y = self:GetPoint(1)
-      if DeegoDB and DeegoDB.overlay then
-        DeegoDB.overlay.point = point
-        DeegoDB.overlay.x = x
-        DeegoDB.overlay.y = y
-      end
-    end)
-    overlay.text = overlay:CreateFontString(nil, "OVERLAY", "GameFontNormal")
-    overlay.text:SetPoint("BOTTOMLEFT", 0, 0)
-    overlay.text:SetJustifyH("LEFT")
-    overlay.text:SetJustifyV("BOTTOM")
-    overlay.text:SetSize(320, 120)
-    DeegoUI.overlay = overlay
-  end
-
-  if DeegoDB and DeegoDB.overlay then
-    local point = DeegoDB.overlay.point or "TOPLEFT"
-    local x = DeegoDB.overlay.x or 18
-    local y = DeegoDB.overlay.y or -120
-    DeegoUI.overlay:ClearAllPoints()
-    DeegoUI.overlay:SetPoint(point, UIParent, point, x, y)
-  end
-
-  if not DeegoData or not DeegoData.specs then
-    DeegoUI.overlay.text:SetText("Deego: No data available.")
-    return
-  end
-
-  local colorPrefix, colorSuffix, classTag = getClassColor()
-  local lines = {}
-  local found = false
-  for _, spec in ipairs(DeegoData.specs) do
-    if spec.class == classTag then
-      found = true
-      table.insert(lines, colorPrefix .. statLine(spec) .. colorSuffix)
-    end
-  end
-
-  if not found then
-    table.insert(lines, "Deego: No data for your class yet.")
-  end
-
-  DeegoUI.overlay.text:SetText(table.concat(lines, "\n"))
+  return
 end
